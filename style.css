@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    width: 500px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.progress-bar-back {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    z-index: -1;
+}
+.progress-bar-front {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: green;
+    border: none;
+    z-index: -1;
+}
+
+.step {
+    width: 30px;
+}
